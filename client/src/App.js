@@ -1,4 +1,5 @@
 import './App.css';
+import Navigation from "./components/Navigation/Navigation";
 import Signup from "./components/Signup/signup";
 import Landingpage from './components/landingpage/landingpage';
 import Axios from "axios";
@@ -16,8 +17,9 @@ function App() {
 
   return (
     <div className="App">
-      <Signup />
-      <Landingpage />
+      <Navigation />
+     {/* <Signup />
+      <Landingpage />*/}
     </div>
   );
 }
