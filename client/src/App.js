@@ -15,9 +15,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          The client is up and running
-        </p>
+        
       </header>
     </div>
   );
