@@ -6,9 +6,9 @@ class signup extends React.Component {
     }
     render() {
         return (
-            <article>
-                <main>
-                <div>
+            <article className="article">
+                <main className="main">
+                <div className="div-Container">
                     <fieldset id="sign_up" className="fieldset">
                         <legend>Signup</legend>
                         <div>
