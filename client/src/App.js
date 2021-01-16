@@ -18,8 +18,8 @@ function App() {
   return (
     <div className="App">
       <Navigation />
-     {/* <Signup />
-      <Landingpage />*/}
+      <Signup />
+      <Landingpage />
     </div>
   );
 }
