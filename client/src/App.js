@@ -1,8 +1,6 @@
 import './App.css';
-import Navigation from "./components/Navigation/Navigation";
-import Signup from "./components/Signup/signup";
-import Landingpage from './components/landingpage/landingpage';
 import Axios from "axios";
+
 
 function App() {
   Axios({
@@ -17,10 +15,7 @@ function App() {
 
   return (
     <div className="App">
-    <h1>You're signed in</h1>
-      <Navigation />
-      {/* <Signup />
-      <Landingpage /> */}
+      <h1>Welcome!</h1>
     </div>
   );
 }
