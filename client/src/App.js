@@ -1,7 +1,6 @@
 import './App.css';
 import Axios from "axios";
 
-
 function App() {
   Axios({
     method: "GET",
