@@ -17,9 +17,10 @@ function App() {
 
   return (
     <div className="App">
+    <h1>You're signed in</h1>
       <Navigation />
-      <Signup />
-      <Landingpage />
+      {/* <Signup />
+      <Landingpage /> */}
     </div>
   );
 }
