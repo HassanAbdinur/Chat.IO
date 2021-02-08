@@ -5,7 +5,7 @@ class Navbar extends React.Component {
     render() {
         return (
             <div className="Navbar">
-                <nav>
+                <nav className="nav">
                     <a>Chat.IO</a>
                 </nav>
             </div>

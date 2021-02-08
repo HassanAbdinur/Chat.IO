@@ -4,3 +4,8 @@
     height: auto;
     color: white;
 }
+
+.nav {
+    text-align: left;
+    padding: 10px;
+}
