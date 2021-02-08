@@ -1,3 +1,5 @@
+import React from 'react';
+import Navbar from './components/navigation/navbar';
 import './App.css';
 import Axios from "axios";
 
@@ -14,9 +16,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Welcome!</h1>
+    <Navbar />
+     <h1>hi hello</h1>
     </div>
   );
 }
-
 export default App;
